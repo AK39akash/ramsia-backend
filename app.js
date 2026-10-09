@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    'https://ramsia-ecommerce.vercel.app',
+    frontendUrl,
     'http://localhost:5173'
   ]
 }));

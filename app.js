@@ -14,7 +14,7 @@ const app = express();
 
 app.use(cors({
   origin: [
-    frontendUrl,
+    FRONTEND_URL,
     'http://localhost:5173'
   ]
 }));
